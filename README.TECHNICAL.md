@@ -80,13 +80,13 @@ Google Colab, Jupyter Notebook, Keras, Python, TensorFlow
 
 |&rarr; [./Resources/](./Resources/)
 
-|&rarr; [./Resources/README.md](./Resources/README.md)
+  &emsp; |&rarr; [./Resources/AlphabetSoupCharity.keras](./Resources/AlphabetSoupCharity.keras)
 
-|&rarr; [./Resources/README.md](./Resources/README.md)
+  &emsp; |&rarr; [./Resources/AlphabetSoupCharityOptimization.keras](./Resources/AlphabetSoupCharityOptimization.keras)
 
-|&rarr; [./README.md](./README.md)
+  &emsp; |&rarr; [./Resources/CharityData.csv](./Resources/CharityData.csv)
 
-|&rarr; [./README.md](./README.md)
+  &emsp; |&rarr; [./Resources/README.md](./Resources/README.md)
 
 ----
 
@@ -94,15 +94,15 @@ Google Colab, Jupyter Notebook, Keras, Python, TensorFlow
 
 ----
 
-[Apache Spark Documentation](https://spark.apache.org/docs/latest/#)
-
 [Google Colab Documentation](https://cloud.google.com/colab/docs)
 
 [Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
 
-[PySpark Documentation](https://spark.apache.org/docs/latest/api/python/getting_started/index.html)
+[Keras Documentation](https://keras.io/api/)
 
 [Python Documentation](https://docs.python.org/3/)
+
+[TensorFlow Documentation](https://www.tensorflow.org/api_docs)
 
 ----
 
