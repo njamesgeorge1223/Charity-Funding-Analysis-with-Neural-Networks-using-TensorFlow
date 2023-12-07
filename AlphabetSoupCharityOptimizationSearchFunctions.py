@@ -260,7 +260,7 @@ def ReturnNeuralNetworkXYParameters \
             = train_test_split \
                 (XNumpyArray, 
                  yNumpyArray, 
-                 random_state = 42)
+                 random_state = 9)
         
         currentStandardScalar \
             = StandardScaler()
@@ -315,9 +315,10 @@ def ReturnNeuralNetworkModel \
             = hp.Choice \
                 ('activation',
                  ['relu',
-                  'leaky_relu',
                   'sigmoid',
-                  'tanh'])
+                  'tanh',
+                  'leaky_relu',
+                  'hard_sigmoid'])
     
         neuralNetSequential \
             .add \
@@ -349,11 +350,16 @@ def ReturnNeuralNetworkModel \
                 (tf.keras.layers.Dense \
                      (units = 1, 
                       activation = 'sigmoid'))
+        
+        learningRateFloat \
+            = hp.Choice \
+                ('learning_rate', 
+                 values = [1e-2, 1e-3, 1e-4])
 
         neuralNetSequential \
             .compile \
                 (loss = 'binary_crossentropy', 
-                 optimizer = 'adam',
+                 optimizer = tf.keras.optimizers.Adam(learning_rate = learningRateFloat),
                  metrics = ['accuracy'])
 
     
