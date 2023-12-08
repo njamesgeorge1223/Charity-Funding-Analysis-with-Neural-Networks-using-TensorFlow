@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis is to create a binary classification model using deep learning techniques to predict if a particular charity organization will succeed in their venture. The model uses a dataset of over 34,000 organizations that have received funding.![image](https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/0f09f4df-b362-431f-a2a7-1aa47e4c2e0f)
+The purpose of this analysis is to create a binary classification model using deep learning techniques to predict if a particular charity organization will succeed in their venture. The model uses a dataset of over 34,000 organizations that have received funding.
 
 ## Results
 
