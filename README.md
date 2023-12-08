@@ -28,9 +28,9 @@ The purpose of this analysis is to create a binary classification model using de
 
 <img width="548" alt="Screenshot 2023-12-07 at 10 59 06 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/5c4c8de2-3cee-4114-9292-c90c81127d31">
 
-Once implemented, the optimized model attained a predictive accuracy of 80.87%.
+Once implemented, the optimized model attained a predictive accuracy of 80.97%.
 
-<img width="751" alt="Screenshot 2023-12-07 at 9 35 39 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/94d7b58c-7f89-4028-a692-86eaf5fd2803">
+<img width="729" alt="Screenshot 2023-12-08 at 2 18 19 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/34a00104-2125-4c14-9ed9-5fcf50b82851">
 
 ## Summary
 
