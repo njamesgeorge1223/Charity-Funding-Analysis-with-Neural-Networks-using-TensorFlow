@@ -1,4 +1,4 @@
-# **Charity Funding Analysis with Tensor and Neural Networks**
+# **Charity Funding Analysis with TensorFlow and Neural Networks**
 
 ----
 
