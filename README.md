@@ -32,6 +32,9 @@ Once implemented, the optimized model attained a pedictive accuracy of 80.87%.
 
 <img width="751" alt="Screenshot 2023-12-07 at 9 35 39 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/94d7b58c-7f89-4028-a692-86eaf5fd2803">
 
+## Summary
+
+Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 80.87%.  If I were to attempt to improve performance in the future, I would modify the optimization program to include other neural network configurations beyond sequential.
 
 
 
