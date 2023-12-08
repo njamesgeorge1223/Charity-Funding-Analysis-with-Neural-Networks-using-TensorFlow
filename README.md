@@ -30,7 +30,7 @@ The purpose of this analysis is to create a binary classification model using de
 
 Once implemented, the optimized model attained a predictive accuracy of 80.97%.
 
-<img width="729" alt="Screenshot 2023-12-08 at 2 18 19 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/34a00104-2125-4c14-9ed9-5fcf50b82851">
+<img width="689" alt="Screenshot 2023-12-08 at 7 57 06 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/6fa2c6ea-3e30-48b8-9040-65323e9b3160">
 
 ## Summary
 
