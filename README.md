@@ -34,7 +34,7 @@ Once implemented, the optimized model attained a predictive accuracy of 80.97%.
 
 ## Summary
 
-Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 80.87%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
+Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 80.97%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
 
 
 
