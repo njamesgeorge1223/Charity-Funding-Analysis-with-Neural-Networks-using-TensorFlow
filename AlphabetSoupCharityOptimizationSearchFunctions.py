@@ -308,7 +308,7 @@ def ReturnNeuralNetworkModel \
         inputFeaturesInteger \
             = ReturnFeaturesInteger()
             
-        neuralNetSequential \
+        neuralNetSequentialModel \
             = tf.keras.models.Sequential()
 
         activationChoice \
@@ -320,7 +320,7 @@ def ReturnNeuralNetworkModel \
                   'leaky_relu',
                   'hard_sigmoid'])
     
-        neuralNetSequential \
+        neuralNetSequentialModel \
             .add \
                 (tf.keras.layers.Dense \
                     (units \
@@ -334,7 +334,7 @@ def ReturnNeuralNetworkModel \
 
         for index in range(hp.Int('num_layers', 1, 5)):
             
-            neuralNetSequential \
+            neuralNetSequentialModel \
                 .add \
                     (tf.keras.layers.Dense \
                          (units \
@@ -345,25 +345,27 @@ def ReturnNeuralNetworkModel \
                                    step = 1),
                                    activation = activationChoice))
 
-        neuralNetSequential \
+        neuralNetSequentialModel \
             .add \
                 (tf.keras.layers.Dense \
                      (units = 1, 
                       activation = 'sigmoid'))
         
         learningRateFloat \
-            = hp.Choice \
-                ('learning_rate', 
-                 values = [1e-2, 1e-3, 1e-4])
+            = hp.Float \
+                    ('learning_rate', 
+                     min_value = 1e-4, 
+                     max_value = 1e-2, 
+                     sampling = 'linear')
 
-        neuralNetSequential \
+        neuralNetSequentialModel \
             .compile \
                 (loss = 'binary_crossentropy', 
                  optimizer = tf.keras.optimizers.Adam(learning_rate = learningRateFloat),
                  metrics = ['accuracy'])
 
     
-        return neuralNetSequential
+        return neuralNetSequentialModel
         
     except:
         
