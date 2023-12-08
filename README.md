@@ -26,7 +26,7 @@ The purpose of this analysis is to create a binary classification model using de
 
 - To achieve the target performance, I made numerous changes to the data set, preprocessing, and neural network configuration. First, I dropped the EIN, STATUS, and SPECIAL_CONSIDERATIONS columns from the data set: these columns either had to many uniquely distributed values or virtually none.  Next, I wrote a neural network optimization program, AlphabetSoupCharityOptimizationSearch.ipynb, that calculated the following cutoff values for the variables, NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, and ASK_AMT: 2, 157, 65, 96, 147, and 4.  According to the program results, the optimal model for this data set contained three hidden layers with 54, 65, and 25 neurons, respectively, using tanh activation.
 
-<img width="585" alt="Screenshot 2023-12-07 at 9 33 24 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/5eb7123c-b22c-4495-85be-30e5494bf2a7">
+<img width="548" alt="Screenshot 2023-12-07 at 10 59 06 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/5c4c8de2-3cee-4114-9292-c90c81127d31">
 
 Once implemented, the optimized model attained a predictive accuracy of 80.87%.
 
