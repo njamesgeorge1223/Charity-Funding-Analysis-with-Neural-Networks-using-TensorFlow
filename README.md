@@ -20,3 +20,9 @@ The purpose of this analysis is to create a binary classification model using de
 
 <img width="652" alt="Screenshot 2023-12-07 at 9 16 52 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/e6089cbf-688d-4306-ad68-859e34a6f21b">
 
+- Unfortunately, this model did not achieve the target model performance of at least 75% predictive accuracy.
+
+<img width="767" alt="Screenshot 2023-12-07 at 9 21 00 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/44831d4b-325f-43fd-9776-fccd87102b6e">
+
+
+
