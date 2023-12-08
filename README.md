@@ -28,3 +28,10 @@ To achieve the target performance, I made numerous changes to the data set, prep
 
 <img width="585" alt="Screenshot 2023-12-07 at 9 33 24 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/5eb7123c-b22c-4495-85be-30e5494bf2a7">
 
+Once implemented, the optimized model attained a pedictive accuracy of 80.87%.
+
+<img width="751" alt="Screenshot 2023-12-07 at 9 35 39 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/94d7b58c-7f89-4028-a692-86eaf5fd2803">
+
+
+
+
