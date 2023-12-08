@@ -1,4 +1,4 @@
-This folder holds the input file for the IPython Notebooks, AlphabetSoupCharity.ipynb, AlphabetSoupCharityOptimization.ipynb, and AlphabetSoupCharityOptimizationSearch.ipynb.
+This folder holds the input files for the IPython Notebooks, AlphabetSoupCharity.ipynb, AlphabetSoupCharityOptimization.ipynb, and AlphabetSoupCharityOptimizationSearch.ipynb.
 
 ----
 
