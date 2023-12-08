@@ -673,15 +673,14 @@ def ReturnBestModelDictionary \
             log_subroutine \
                 .PrintAndLogWriteText \
                     (f'\nModel Loss: {round(modelLossFloat * 100, 2)}%, ' 
-                     + f'Model Accuracy: {round(modelAccuracyFloat*100, 2)}%')
+                     + f'Model Accuracy: {round(modelAccuracyFloat*100, 2)}%\n\n')
         
         bestHyperparameters \
-            = tunerHyperBand \
+            = tunerHyperband \
                 .get_best_hyperparameters()[0]
         
         bestModelNeuralNetSequential \
-            = tunerHyperBand \
-                .get_best_models(numberOfTopModelsInteger)[0]
+            = topModelList[0]
         
         bestModelLossFloat, \
         bestModelAccuracyFloat \
@@ -706,9 +705,6 @@ def ReturnBestModelDictionary \
                'duration': '',
                'count_list': [],
                'max_count_list': []}
-        
-        
-        return tempDictionary
         
     except:
         
