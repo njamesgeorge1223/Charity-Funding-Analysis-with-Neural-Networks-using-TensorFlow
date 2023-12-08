@@ -275,7 +275,7 @@ def ReturnBinnedDataFrameForOneColumn \
         
         for typesToReplace in typesToReplaceList:
     
-            tempDataFrame[columnNameString] \
+            inputDataFrame[columnNameString] \
                 = inputDataFrame[columnNameString] \
                     .replace \
                         (typesToReplace, 'Other')
