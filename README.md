@@ -1,13 +1,13 @@
 
 <img width="769" alt="Screenshot 2023-12-08 at 8 08 48 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/2f47d515-a560-451d-b592-0ec2bbf0efb7">
 
-# Charity Funding Analysis with TensorFlow and Neural Networks
+# **Charity Funding Analysis with Neural Networks using TensorFlow**
 
-## Overview of the Analysis
+## **Overview of the Analysis**
 
 The purpose of this analysis is to create a binary classification model using deep learning techniques to predict if a particular charity organization, Alphabet Soup, will succeed in selecting successful applicants for funding. The model draws on a dataset of over 34,000 organizations that have received funding in the past.
 
-## Results
+## **Results**
 
 ### Data Preprocessing
 
@@ -37,7 +37,7 @@ Once implemented, the optimized model attained a predictive accuracy of 81.0%.
 
 <img width="689" alt="Screenshot 2023-12-08 at 7 57 06 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/6fa2c6ea-3e30-48b8-9040-65323e9b3160">
 
-## Summary
+## **Summary**
 
 Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 81.0%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
 
