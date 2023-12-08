@@ -1,3 +1,6 @@
+
+<img width="769" alt="Screenshot 2023-12-08 at 8 08 48 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/2f47d515-a560-451d-b592-0ec2bbf0efb7">
+
 # Charity Funding Analysis with Tensor and Neural Networks
 
 ## Overview of the Analysis
