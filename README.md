@@ -24,5 +24,7 @@ The purpose of this analysis is to create a binary classification model using de
 
 <img width="767" alt="Screenshot 2023-12-07 at 9 21 00 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/44831d4b-325f-43fd-9776-fccd87102b6e">
 
+To achieve the target performance, I made numerous changes to the data set, preprocessing, and neural network configuration. First, I dropped the EIN, STATUS, SPECIAL_CONSIDERATIONS columns from the data set: these columns either had to many uniquely distributed values or had too many of the same value.  Next, I wrote a neural network optimization program, AlphabetSoupCharityOptimizationSearch.ipynb, that specified the following cutoff values for the variables, NAME, APPLICATION_TYPE, CLASSIFICATION, USE_CASE, and ASK_AMT: 2, 157, 96, and 4.  According to the program results, the optimal model for this data set contained four hidden layers with 58, 19, 97, 48, and 7 neurons, respectively, using leaky ReLU activation.
 
+<img width="585" alt="Screenshot 2023-12-07 at 9 33 24 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/5eb7123c-b22c-4495-85be-30e5494bf2a7">
 
