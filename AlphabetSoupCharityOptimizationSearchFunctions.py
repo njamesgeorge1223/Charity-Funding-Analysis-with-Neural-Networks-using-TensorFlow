@@ -260,7 +260,7 @@ def ReturnNeuralNetworkXYParameters \
             = train_test_split \
                 (XNumpyArray, 
                  yNumpyArray, 
-                 random_state = 9)
+                 random_state = 21)
         
         currentStandardScalar \
             = StandardScaler()
