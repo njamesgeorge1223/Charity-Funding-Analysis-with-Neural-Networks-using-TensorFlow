@@ -28,13 +28,13 @@ The purpose of this analysis is to create a binary classification model using de
 
 <img width="548" alt="Screenshot 2023-12-07 at 10 59 06 PM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/5c4c8de2-3cee-4114-9292-c90c81127d31">
 
-Once implemented, the optimized model attained a predictive accuracy of 80.97%.
+Once implemented, the optimized model attained a predictive accuracy of 81.0%.
 
 <img width="689" alt="Screenshot 2023-12-08 at 7 57 06 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/6fa2c6ea-3e30-48b8-9040-65323e9b3160">
 
 ## Summary
 
-Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 80.97%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
+Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 81.0%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
 
 
 
