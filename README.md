@@ -2,13 +2,13 @@
 
 ## Overview of the Analysis
 
-The purpose of this analysis is to create a binary classification model using deep learning techniques to predict if a particular charity organization will succeed in their venture. The model uses a dataset of over 34,000 organizations that have received funding.
+The purpose of this analysis is to create a binary classification model using deep learning techniques to predict if a particular charity organization will succeed in selecting successful applicants for funding. The model draws on a dataset of over 34,000 organizations that have received funding in the past.
 
 ## Results
 
 ### Data Preprocessing
 
-- The variable, IS_SUCCESSFUL, is the target the binary classification model.
+- The variable, IS_SUCCESSFUL, is the target of the binary classification model.
 
 - The variables – APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT – are the features of the model.
 
