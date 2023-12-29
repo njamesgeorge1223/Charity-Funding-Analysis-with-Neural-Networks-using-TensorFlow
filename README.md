@@ -37,11 +37,11 @@ Once implemented, the optimized model attained a predictive accuracy of 81.11% a
 
 <img width="614" alt="Screenshot 2023-12-08 at 8 10 42 AM" src="https://github.com/njgeorge000158/deep-learning-challenge/assets/137228821/c569b092-514c-44d7-9fb0-3e8c340c8b2b">
 
-<img width="698" alt="Screenshot 2023-12-28 at 9 40 08 PM" src="https://github.com/njamesgeorge1223/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/152452572/0f160355-f995-4a4d-97b6-9191ecf1356e">
+<img width="687" alt="Screenshot 2023-12-29 at 1 08 25 PM" src="https://github.com/njamesgeorge1223/Charity-Funding-Analysis-with-Neural-Networks-using-TensorFlow/assets/152452572/38b854f6-db3f-4f65-9bba-8a66833eaa4e">
 
 ## **Summary**
 
-Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 81.0%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
+Overall, through optimization, the model exceeded the target predictive accuracy of 75% with 81.24%.  If I were to attempt to improve performance in the future, I would, among other things, modify the optimization program to include other neural network configurations beyond sequential.
 
 ----
 
